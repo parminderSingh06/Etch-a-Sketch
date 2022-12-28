@@ -1,1 +1,99 @@
+body
+{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#433C3C ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    font-size: 32px;
+}
+
+.ui
+{
+    height:780px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:100px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.options button
+{
+    width: 100px;
+    padding: 12px;
+    background-color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid white;
+}
+
+.options
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+    gap:32px;
+    flex: 1 1 1;
+}
+
+.container
+{
+    display: grid;
+    background-color:white;
+    height: 550px;
+    width: 600px;
+    
+}
+
+.footer
+{
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#color_button
+{
+    background-color: transparent;
+    width: 85px;
+    height: 85px;
+    border:none;
+    cursor: pointer;
+}
+
+input[type='range']
+{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 148px;
+    height: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;
+}
+
+input[type='range']::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: gray;
+}
 
